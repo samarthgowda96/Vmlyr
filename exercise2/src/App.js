@@ -20,7 +20,7 @@ function App() {
         <Nav.Link href="/Kittens" className="link"> Kittens</Nav.Link>
       </Nav.Item>
     </Nav>
-    <Container
+   
     
     </div>
   );

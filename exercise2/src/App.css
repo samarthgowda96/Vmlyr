@@ -1,18 +1,85 @@
+.body{
+  background-color: #abe9cd;
+  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+}
 .navbar{
   background-color: black
 }
 .App {
   text-align: center;
+  background-color: #61dafb;
+ 
 }
-.link{
-  color: rgb(44, 3, 3);
+
+
+.title-main{
+  font-size: 4em;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif; 
+  font-weight:bold;
+  margin-top: 50px;
+}
+.title-sub{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif; 
+  font-weight:bold;
   
+
 }
 nav .nav-link{
   color: azure
-
 }
-
+.cont-1{
+  height: 20em;
+}
+.flexbox-cont{
+  display: flex;
+/*     flex-direction:column; */
+  height: 300px;
+  border: 2px solid blue;
+  justify-content: space-evenly
+;
+}
+.flexbox-item{
+  width: 400px;
+  margin:10px;
+  border: 3px solid red;
+  background-color: yellow;
+  text-align: center;
+}
+.flexbox-item-1{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif; 
+  text-align: left;
+  font-size: 1.5em;
+  margin-left: 10px;
+  padding:10px
+}
+.flexbox-item-2{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif; 
+  text-align: left;
+  font-size: 1.5em;
+  margin-left: 10px;
+  padding:10px
+}
+.flexbox-item-3{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif; 
+  text-align: left;
+  font-size: 1.5em;
+  margin-left: 10px;
+  padding:10px
+}
+.flexbox-titles{
+  margin-left: 10px;
+  font-weight: 400px;
+}
+.images{
+  align-items: center;
+  text-align:center;
+  margin-top: 5px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

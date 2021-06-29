@@ -19,13 +19,11 @@ body{
 .input-cont{
   margin-top:10em;
   margin-bottom: 10em;
-  
- 
-  
-  
-  
   font-family: 'Montserrat', sans-serif;
   
+}
+.mb-3{
+  border: 1px solid darkblue
 }
 .inputs{
  
@@ -42,6 +40,9 @@ body{
   align-items: center;
   margin-left:16em;
 
+}
+.title{
+  text-align: center;
 }
 .App {
   text-align: center;

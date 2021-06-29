@@ -10,21 +10,27 @@ import Button from 'react-bootstrap/Button'
 const App=()=>{
     const [firstName,setFirstName]=useState('')
     const [lastName,setLastName]=useState('')
+    const [displayName,setDisplayName]=useState(false)
     
     const handleFullNameClick=()=>{
-        alert(firstName+""+ lastName)
+        setDisplayName(true)
+        alert(firstName+" "+ lastName)
+        
     }
     return(
         <div>
+            
             <Container className="header-cont">
+               
                 <h1 className="header-name">
                     <Badge 
                     style={{textAlign:"center", color:"darkblue"}}>Hello there </Badge>
                 </h1>
             </Container>
             
-
             <Container className="input-cont">
+
+            {displayName?<div><h1 className="title">Welcome{" "+firstName+" "+lastName} </h1></div>:<div></div>}
                 <InputGroup className="mb-3">
                     <InputGroup.Text id="basic-addon1">firstName</InputGroup.Text>
                         <FormControl

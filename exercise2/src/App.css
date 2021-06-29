@@ -1,5 +1,16 @@
+.navbar{
+  background-color: black
+}
 .App {
   text-align: center;
+}
+.link{
+  color: rgb(44, 3, 3);
+  
+}
+nav .nav-link{
+  color: azure
+
 }
 
 .App-logo {

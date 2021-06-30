@@ -8,10 +8,12 @@ import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
 
 const App=()=>{
+    //declaring all the required states
     const [firstName,setFirstName]=useState('')
     const [lastName,setLastName]=useState('')
     const [displayName,setDisplayName]=useState(false)
-    
+
+    //handling the alert functionality
     const handleFullNameClick=()=>{
         setDisplayName(true)
         alert(firstName+" "+ lastName)
@@ -19,12 +21,9 @@ const App=()=>{
     }
     return(
         <div>
-            
             <Container className="header-cont">
-               
                 <h1 className="header-name">
-                    <Badge 
-                    style={{textAlign:"center", color:"darkblue"}}>Hello there </Badge>
+                    <Badge style={{textAlign:"center", color:"darkblue"}}>Hello there </Badge>
                 </h1>
             </Container>
             

@@ -36,15 +36,14 @@ nav .nav-link{
   display: flex;
 /*     flex-direction:column; */
   height: 300px;
-  border: 2px solid blue;
+  
   justify-content: space-evenly
 ;
 }
 .flexbox-item{
   width: 400px;
   margin:10px;
-  border: 3px solid red;
-  background-color: yellow;
+  
   text-align: center;
 }
 .flexbox-item-1{
@@ -55,6 +54,7 @@ nav .nav-link{
   margin-left: 10px;
   padding:10px
 }
+
 .flexbox-item-2{
   font-family: 'Lato', sans-serif;
   font-family: 'Montserrat', sans-serif; 
@@ -72,17 +72,22 @@ nav .nav-link{
   padding:10px
 }
 .flexbox-titles{
-  margin-left: 10px;
+  margin-left: 0px;
   font-weight: 400px;
 }
 .images{
   align-items: center;
   text-align:center;
   margin-top: 5px;
+  
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.flexbox-title-sub{
+  font-size: 12px;
+  margin-top: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
